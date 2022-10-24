@@ -46,7 +46,7 @@ const UploadCard: FC<Props> = ({
 		<div className=''>
 			{/* modal */}
 			{showEnterLinkModal && (
-				<div className='fixed z-[80] inset-0 bg-[#0008] flex justify-center items-center p-6'>
+				<div className='fixed z-50 inset-0 bg-[#0008] flex justify-center items-center p-6'>
 					<form
 						className='bg-white w-full rounded-md px-6 py-6 max-w-[308px] mx-auto'
 						onSubmit={(e) => {

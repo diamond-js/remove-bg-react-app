@@ -75,7 +75,7 @@ const App: FC = () => {
 			onDrop={handleDrop}
 		>
 			{isDraging && (
-				<div className='fixed top-0 left-0 w-full h-full bg-[#0e2624] z-10 text-6xl text-white font-semibold flex items-center justify-center opacity-90'>
+				<div className='fixed top-0 left-0 w-full h-full bg-[#0e2624] z-[80] text-6xl text-white font-semibold flex items-center justify-center opacity-90'>
 					Drop Image Anywhere
 				</div>
 			)}
