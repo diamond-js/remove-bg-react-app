@@ -69,7 +69,7 @@ const ManualModal: FC<Props> = ({ onClose }) => {
 					<div className='mb-5'>
 						<p className='text-base mb-3 text-txtClr'>
 							This is a Web app created by{' '}
-							<HightlightedText>Dynasty Aigmbomian</HightlightedText> for
+							<HightlightedText>Dynasty Aigbomian</HightlightedText> for
 							removing backgrounds from images as a personal reactjs project.
 							<br />
 							Inspiration was gotten from{' '}
