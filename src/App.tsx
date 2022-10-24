@@ -120,7 +120,7 @@ const App: FC = () => {
 			</div>
 
 			{/* how to use */}
-			<div className='absolute right-6 bottom-6'>
+			<div className='fixed right-6 bottom-6 z-[100]'>
 				<HowToUse />
 			</div>
 		</div>
